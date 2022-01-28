@@ -1,0 +1,49 @@
+
+// Pricing
+.pricing-intro {
+    & h6 {
+      padding-left: 5rem;
+      padding-right: 5rem;
+    }
+  }
+  .pricing {
+    background-color: $greyBackground;
+    & div {
+      background-color: white;
+      border: 1px solid lightgray;
+      padding: 3rem;
+    }
+    & li {
+      color: black !important;
+      margin-bottom: 1rem;
+    }
+    & p:first-of-type {
+      color: black;
+      margin-bottom: 1rem;
+      font-weight: 400;
+      font-size: 1.2rem;
+    }
+    & p:first-of-type ~ p {
+      margin-bottom: 3rem;
+    }
+    & li:first-of-type {
+      font-weight: 500;
+      margin-bottom: 1.3rem;
+    }
+    & .btn-secondary {
+      margin-bottom: 0;
+    }
+  }
+  
+  // FAQ
+  .faq-title {
+    background-color: white;
+    padding-bottom: 0;
+  }
+  .faq li {
+    padding: 1rem;
+  }
+  .faq h6 {
+    @extend %h6;
+    font-weight: 400;
+  }

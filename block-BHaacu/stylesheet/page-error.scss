@@ -1,0 +1,28 @@
+.not-found {
+    padding-bottom: 0;
+  }
+  
+  // Contact
+  .outer-circle {
+    border-radius: 50%;
+    max-width: 60px;
+    background-color: rgba(darkgray, 0.25);
+    margin: 2rem auto;
+    position: relative;
+  }
+  .contact {
+    padding-top: 0rem;
+  }
+  .contact div {
+    padding: 2rem;
+    & i {
+      font-size: 1.5rem;
+      position: absolute;
+      left: 20px;
+      top: 19px;
+    }
+    & h6 {
+      @extend %h6;
+      font-weight: 400;
+    }
+  }

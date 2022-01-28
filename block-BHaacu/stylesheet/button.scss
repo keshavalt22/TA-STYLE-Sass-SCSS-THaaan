@@ -1,0 +1,43 @@
+/* Buttons */
+.btn {
+    display: inline-block;
+    padding: 0.5rem 2rem;
+    letter-spacing: 0.8px;
+    cursor: pointer;
+    background-color: var(--accent);
+    color: #ffffff;
+    transition: all 200ms ease-in-out;
+    font-size: 1rem;
+    border-radius: 50px;
+    font-weight: 300;
+    margin-top: 2rem;
+    &-primary {
+      background-color: white;
+      color: $primary;
+      border: 1px solid $primary;
+    }
+    &-primary:hover {
+      color: $primary;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+      opacity: 0.8;
+    }
+    &-secondary {
+      background-color: $primary;
+      color: white;
+      margin-bottom: 7rem;
+    }
+    &-secondary:hover {
+      color: white;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+      opacity: 0.8;
+    }
+    &-tertiary {
+      background-color: $primary;
+      border: 1px solid white;
+      color: white;
+    }
+    &-tertiary:hover {
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+      opacity: 0.8;
+    }
+  }

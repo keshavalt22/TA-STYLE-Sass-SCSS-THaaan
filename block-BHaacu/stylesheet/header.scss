@@ -1,0 +1,14 @@
+.global-title {
+    background-color: $primary;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    & h1 {
+      color: white;
+      margin-top: 0;
+      text-transform: capitalize;
+    }
+    & p {
+      color: white;
+    }
+  }
