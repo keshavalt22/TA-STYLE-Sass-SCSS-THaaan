@@ -1,0 +1,182 @@
+// Social Bar
+.social-bar {
+    background-color: $primary;
+    padding: 0.5rem 7.5rem;
+    color: white;
+    i {
+      margin-left: 1rem;
+      margin-right: 0.5rem;
+      color: white;
+    }
+    .fa-phone {
+      margin-left: 0;
+    }
+    .fa-globe {
+      margin-right: 0;
+    }
+  }
+  
+  // Logo and Navigation
+  .navigation {
+    background-color: $greyBackground;
+  }
+  .brand {
+    font-size: 2rem;
+    color: $primary;
+    font-weight: 800;
+    padding: 0.5rem 0rem;
+    & span {
+      color: black;
+      font-weight: 800;
+    }
+  }
+  #toggle {
+    display:none;
+  }
+  .bars {
+    display: none;
+  }
+  .bars i {
+    color: white;
+  }
+  .nav {
+    & li {
+      margin-left: 0.7rem;
+      font-weight: 300;
+    }
+    & a {
+      color: $textDark;
+      padding: 1rem 0.8rem;
+      &:hover {
+        color: white;
+        padding: 1.6rem 0.8rem;
+        background-color: $primary;
+        & > i {
+          color: white;
+        }
+      }
+    }
+    & i {
+      margin-top: -0.1rem;
+      margin-left: 0.7rem;
+      vertical-align: middle;
+      color: black;
+    }
+  }
+  
+  // Hero
+  .hero {
+    vertical-align: middle;
+    background: url("/Users/hayley/Desktop/Altcampus course/html-css/scss/TA-STYLE-Sass-SCSS-THaaan/block-BHaacu/assets/media/banner-1.jpg")
+      no-repeat center/1360px;
+  }
+  
+  // Services
+  .services {
+    margin-bottom: 4rem;
+  }
+  
+  // Solutions
+  .solutions {
+    background-color: $greyBackground;
+  }
+  
+  // About
+  .about {
+    text-align: center;
+  }
+  .about .text {
+    padding: 2rem;
+    padding-top: 0;
+    padding-left: 0;
+  }
+  .about .image {
+    padding: 2rem;
+    padding-right: 0;
+  }
+  i {
+    color: $primary;
+  }
+  .about i {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  }
+  .about p {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  // Quote
+  .quote {
+    background-color: $primary;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  .quote h6 {
+    color: white;
+    font-weight: 500;
+  }
+  .quote p {
+    color: white;
+  }
+  .quote-btn {
+    text-align: right;
+    vertical-align: middle;
+  }
+  .quote .btn {
+    margin-top: 0;
+    margin-right: 3rem;
+  }
+  
+  // About 2
+  .about-2 {
+    text-align: center;
+  }
+  
+  .about-2 img {
+    padding: 2rem;
+  }
+  
+  // Clients
+  .clients {
+    text-align: center;
+    background-color: $greyBackground;
+  }
+  .clients img {
+    filter: grayscale(100%) opacity(40%);
+    max-width: 90px;
+  }
+  .clients-div div {
+    padding: 0.5rem;
+  }
+  
+  // Footer
+  
+  footer {
+    background-color: $footerBackground;
+    color: $textLight;
+    line-height: 1.8;
+  }
+  footer i {
+    color: white;
+    margin-right: 1rem;
+  }
+  footer li:first-child {
+    color: white;
+    font-weight: 500;
+    margin-bottom: 2rem;
+  }
+  footer a {
+    color: $textLight;
+    &:hover {
+      color: $primary;
+    }
+  }
+  
+  .copyright {
+    padding-top: 0.5rem;
+    strong {
+      color: white;
+    }
+  }

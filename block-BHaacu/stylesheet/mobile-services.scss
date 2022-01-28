@@ -1,0 +1,26 @@
+@media screen and (max-width: 768px) {
+    //General
+    .display-none {
+      display: none;
+    }
+  
+    // Products
+    .products .col {
+      text-align: center;
+      & svg {
+        max-width: 80px;
+      }
+      & p {
+        margin-bottom: 2rem;
+      }
+    }
+    .products {
+      padding-bottom: 0;
+    }
+  
+    //Best Deals
+    .best-deals h6 {
+      margin-bottom: 1rem;
+      font-size: 1.4rem;
+    }
+  }

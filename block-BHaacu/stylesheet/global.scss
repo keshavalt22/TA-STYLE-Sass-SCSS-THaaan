@@ -1,0 +1,57 @@
+/* General */
+html {
+    font-size: 16px;
+  }
+  body {
+    font-size: 1rem;
+    line-height: 1.5;
+    font-family: $font-family;
+    color: $textLight;
+    font-weight: 200;
+  }
+  
+  // Container
+  .container {
+    max-width: 1360px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 2rem;
+  }
+  
+  /* Padding */
+  .padding {
+    padding: 4rem 7.0rem;
+  }
+  .padding-small {
+    padding: 0rem 7.0rem;
+  }
+  
+  /* Clearfix */
+  .clearfix::before,
+  .clearfix::after {
+    content: "";
+    display: table;
+  }
+  .clearfix::after {
+    clear: both;
+  }
+  
+  /* Active Link */
+  // .active {
+  //     color: var(--primary);
+  // }
+  
+  /* Nav and General Links Hover */
+  // a:hover {
+  //     color: var(--primary);
+  // }
+  
+  /* Full Width Images*/
+  .width-full {
+    width: 100%;
+  }
+  
+  // Font-Zero
+  .font-0 {
+    font-size: 0;
+  }

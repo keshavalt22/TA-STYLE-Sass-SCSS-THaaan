@@ -1,0 +1,34 @@
+// Products
+.products-title {
+    background-color: $greyBackground;
+    padding-bottom: 0;
+    & h6 {
+    margin-bottom: 0;
+    }
+}
+
+// Products
+
+.products {
+    background-color: $greyBackground;
+    & div {
+        margin-bottom: 2rem;
+    }
+    & svg {
+    margin-bottom: 2rem;
+    }
+    & h6 {
+        @extend %h6;
+    }
+}
+
+// Best Deals 
+
+.best-deals h6 {
+    margin-bottom: 0;
+}
+
+// Best Awarded
+.best-awarded {
+    background-color: $greyBackground;
+}
