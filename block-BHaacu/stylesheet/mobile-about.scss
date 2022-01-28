@@ -1,0 +1,37 @@
+@media screen and (max-width: 768px) {
+    // Article
+    .article-1 {
+      padding-bottom: 0;
+    }
+  
+    // Mission, Vision, Values
+    .mission svg {
+      max-width: 200px;
+      margin-top: 1rem;
+    }
+    .mission i {
+      padding: 1rem;
+      text-align: center;
+      margin-right: 0;
+    }
+    .mission h6 {
+      text-align: center;
+    }
+    .mission p {
+      margin-bottom: 1rem;
+    }
+    .mission {
+      padding-top: 0;
+    }
+  
+    // Team
+    .team {
+      padding-left: 2rem;
+      padding-right: 2rem;
+    }
+  
+    // Best Solution
+    .best-solution {
+      padding-bottom: 4rem;
+    }
+  }

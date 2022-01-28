@@ -1,0 +1,36 @@
+// General Text and Contact
+.general-text, .contact-2 {
+    background-color: $greyBackground;
+}
+.general-text h6 {
+    margin-bottom: 0;
+}
+.contact p {
+    color: black;
+}
+
+// Form and Map
+.form-and-map {
+    padding-bottom: 0;
+  & iframe {
+    max-width: 600px;
+    width: 100%;
+  }
+  & input {
+    border: 1px solid grey;
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+  & textarea {
+    border: 1px solid grey;
+    width: 100%;
+    padding: 1rem;
+    font-family: $font-family;
+  }
+  & form {
+    padding: 2rem;
+    padding-top: 0;
+    align-items: center;
+  }
+}

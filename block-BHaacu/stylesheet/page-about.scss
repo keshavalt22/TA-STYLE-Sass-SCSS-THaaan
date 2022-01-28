@@ -1,0 +1,64 @@
+// General
+%h6 {
+    color: black;
+    font-weight: 600;
+    font-size: 1rem;
+  }
+  
+  // Article
+  .about-2 h6 {
+    color: $primary;
+  }
+  
+  // Mission, Vision, Values
+  .mission svg {
+    max-width: 300px;
+  }
+  .mission h6 {
+    @extend %h6;
+    margin-bottom: 0.5rem;
+  }
+  .mission i {
+      margin-right: 3rem;
+      font-size: 3rem;
+      color: black;
+      margin-top: -2rem;
+  }
+  .mission div:only-of-type {
+      margin-bottom: 2rem;
+  }
+  .mission-text {
+      padding: 1rem;
+  }
+  
+  // Team
+  .team {
+    background-color: $greyBackground;
+    & ul {
+      padding: 1rem;
+    }
+    & li {
+      background-color: white;
+      margin-bottom: 1rem;
+      margin-top: 1rem;
+    }
+    & img {
+      max-width: 200px;
+      margin-bottom: 1rem;
+    }
+    & h6 {
+      @extend %h6;
+    }
+    & .team-role {
+      color: $primary;
+      font-weight: 300;
+      font-size: 0.8rem;
+      margin-bottom: 2rem;
+    }
+  }
+  
+  // Best Solution
+  .services-title .btn {
+    margin-bottom: 0;
+    margin-top: 1rem;
+  }

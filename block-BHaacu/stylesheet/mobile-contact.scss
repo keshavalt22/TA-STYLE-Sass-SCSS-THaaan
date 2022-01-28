@@ -1,0 +1,13 @@
+@media screen and (max-width: 768px) {
+    .form-and-map {
+        & form {
+            padding: 0;
+            padding-top: 2rem;
+        }
+      & iframe {
+        max-width:400px;
+        width: 100%;
+        margin: 0 auto;
+      }
+    }
+  }
